@@ -3,7 +3,6 @@ from typing import List
 
 
 def selection_sort(unsorted_list: List[int]):
-    pointer = 0
     for i in range(len(unsorted_list) - 1):
         cur_min = math.inf
         index = None
