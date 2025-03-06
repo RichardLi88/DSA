@@ -11,7 +11,7 @@ def bubble_sort(unsorted_list: List[int]) -> None:
                     unsorted_list[j + 1],
                     unsorted_list[j],
                 )
-        if needs_sort == False:
+        if not needs_sort:
             break
 
 
